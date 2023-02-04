@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Kausid - Charity and Fundraising HTML Template | Home Page 02</title>
+    <title>AWOESA | Home </title>
     @vite('resources/css/app.css')
 
     <!-- Responsive Settings -->
