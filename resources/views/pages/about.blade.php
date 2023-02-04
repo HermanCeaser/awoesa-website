@@ -2,7 +2,7 @@
     <!-- Page Banner Section -->
     <section class="page-banner">
         <div class="image-layer"
-            style="background-image:url('{{ Vite::asset('resources/images/bg-page-title-2.jpg') }}');"></div>
+            style="background-image:url('{{ Vite::asset('resources/images/background/bg-page-title-2.jpg') }}');"></div>
 
         <div class="auto-container">
             <h1>About Us</h1>
