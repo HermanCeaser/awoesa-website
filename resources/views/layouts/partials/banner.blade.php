@@ -12,9 +12,9 @@
                             <div class="sub-title">support the causes that matters</div>
                             <h2>Empowering the lives of needy people</h2>
                             <div class="links-box">
-                                <a href="donate.html" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
+                                <a href="#" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
                                 <span class="theme-icon"></span>
-                                <a href="about.html" class="theme-btn btn-style-three"><span class="btn-title">who we are</span></a>
+                                <a href="{{ route('aboutus')}}" class="theme-btn btn-style-three"><span class="btn-title">who we are</span></a>
                             </div>
                         </div>
                     </div>
@@ -33,9 +33,9 @@
                             <div class="sub-title">support the causes that matters</div>
                             <h2>Empowering the lives of needy people</h2>
                             <div class="links-box">
-                                <a href="donate.html" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
+                                <a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
                                 <span class="theme-icon"></span>
-                                <a href="about.html" class="theme-btn btn-style-three"><span class="btn-title">who we are</span></a>
+                                <a href="{{ route('aboutus') }}" class="theme-btn btn-style-three"><span class="btn-title">who we are</span></a>
                             </div>
                         </div>
                     </div>
@@ -54,9 +54,9 @@
                             <div class="sub-title">support the causes that matters</div>
                             <h2>Empowering the lives of needy people</h2>
                             <div class="links-box">
-                                <a href="donate.html" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
+                                <a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
                                 <span class="theme-icon"></span>
-                                <a href="about.html" class="theme-btn btn-style-three"><span class="btn-title">who we are</span></a>
+                                <a href="{{ route('aboutus') }}" class="theme-btn btn-style-three"><span class="btn-title">who we are</span></a>
                             </div>
                         </div>
                     </div>

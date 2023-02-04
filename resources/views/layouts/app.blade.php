@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AWOESA | Home </title>
+    <title>AWOESO | Home </title>
     @vite('resources/css/app.css')
 
     <!-- Responsive Settings -->
@@ -17,7 +17,9 @@
 <body>
     <div class="page-wrapper">
         <!-- Preloader -->
-        <div class="preloader"><div class="icon"></div></div>
+        <div class="preloader">
+            <div class="icon"></div>
+        </div>
 
         <!-- Main Header -->
         <header class="main-header header-style-two">
@@ -68,11 +70,12 @@
                     <div class="inner-container clearfix">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"
-                                    title="Kausid - Charity and Fundraising HTML Template"><img
+                            <div class="logo"><a href="{{ route('home')}}"
+                                    title="AWOESO - Aids widow and Orphans Education Support Organization"><img
                                         src="{{ Vite::asset('resources/images/logo-2.png') }}"
-                                        alt="Kausid - Charity and Fundraising HTML Template"
-                                        title="Kausid - Charity and Fundraising HTML Template"></a></div>
+                                        alt="AWOESO - Aids widow and Orphans Education Support Organization"
+                                        title="AWOESO - Aids widow and Orphans Education Support Organization"></a>
+                            </div>
                         </div>
 
                         <!--Nav Box-->
@@ -84,55 +87,28 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="index.html">Home</a>
+                                        <li @class(['current'=>request()->routeIs('home')])><a href="{{ route('home')}}">Home</a>
+                                        </li>
+                                        <li @class([ 'dropdown', 'current'=>request()->routeIs('aboutus')])><a href="#">About</a>
                                             <ul>
-                                                <li><a href="index.html">Home Charity</a></li>
-                                                <li><a href="index-2.html">Home Volunteer</a></li>
-                                                <li><a href="index-3.html">Home Wildlife</a></li>
-                                                <li><a href="index-4.html">Home Environment</a></li>
-                                                <li class="dropdown"><a href="index.html">Header Styles</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Header Style One</a></li>
-                                                        <li><a href="index-2.html">Header Style Two</a></li>
-                                                    </ul>
-                                                </li>
+                                                <li @class(['current'=>request()->routeIs('aboutus')])><a href="{{ route('aboutus')}}">About Us</a></li>
+                                                <li><a href="#">Our Volunteers</a></li>
+                                                <li><a href="#">Faq's</a></li>
+                                                <li><a href="#">Make Donation</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="about.html">About</a>
-                                            <ul>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="volunteers.html">Our Volunteers</a></li>
-                                                <li><a href="faq.html">Faq's</a></li>
-                                                <li><a href="donate.html">Make Donation</a></li>
-                                            </ul>
+                                        <li @class(['current'=>request()->routeIs('causes')])><a href="#">Causes</a>
+
                                         </li>
-                                        <li class="dropdown"><a href="causes.html">Causes</a>
-                                            <ul>
-                                                <li><a href="causes.html">See Causes</a></li>
-                                                <li><a href="cause-single.html">Cause Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="events.html">Pages</a>
-                                            <ul>
-                                                <li><a href="events.html">All Events</a></li>
-                                                <li><a href="event-single.html">Event Details</a></li>
-                                                <li><a href="donate.html">Make Donation</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="blog.html">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Visit Our Blog</a></li>
-                                                <li><a href="blog-single.html">Blog Post Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+
+                                        <li @class(['current'=>request()->routeIs('contact')])><a href="#">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
                             <!-- Main Menu End-->
 
                             <div class="donate-link">
-                                <a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate
+                                <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Donate
                                         Now</span></a>
                             </div>
                         </div>

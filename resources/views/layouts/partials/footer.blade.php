@@ -12,7 +12,7 @@
                     <div class="footer-widget logo-widget">
                         <div class="widget-content">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="{{ Vite::asset('resources/images/footer-logo.png') }}" alt="" /></a>
+                                <a href="{{ route('home') }}"><img src="{{ Vite::asset('resources/images/footer-logo.png') }}" alt="" /></a>
                             </div>
                             <div class="text">Alit usmod tempor incididunt laboret quis arud exercitation ullamcos laboris nisiut aliquip. exa consequat duis aute rue dolor prehendrit lorem esse cillum dolore eu fugiat nulla.</div>
                             <ul class="social-links clearfix">
@@ -104,7 +104,7 @@
                                 <div class="widget-content">
                                     <h3>Subscribe Our Newsletter For Updates</h3>
                                     <div class="newsletter-form">
-                                        <form method="post" action="contact.html">
+                                        <form method="post" action="#">
                                             <div class="form-group clearfix">
                                                 <input type="email" name="email" value="" placeholder="Enter Your Email" required="">
                                                 <button type="submit" class="theme-btn newsletter-btn">Subscribe</button>

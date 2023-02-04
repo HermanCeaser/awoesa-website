@@ -33,7 +33,7 @@
                                         <li><input type="radio" name="donate-group" id="donate-2"><label for="donate-2">$30.00</label></li>
                                         <li><input type="radio" name="donate-group" id="donate-3"><label for="donate-3">$50.00</label></li>
                                     </ul>
-                                    <div class="link-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate now</span></a></div>
+                                    <div class="link-box"><a href="{{ route('donate') }}" class="theme-btn btn-style-one"><span class="btn-title">Donate now</span></a></div>
                                 </div>
                             </div>
                         </div>

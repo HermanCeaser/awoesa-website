@@ -28,7 +28,7 @@
             <div class="cause-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms">
                     <div class="image-box">
-                        <figure class="image"><a href="cause-single.html"><img src="{{ Vite::asset('resources/images/resource/cause-image-1.jpg') }}" alt=""></a></figure>
+                        <figure class="image"><a href="{{ route('aboutus') }}"><img src="{{ Vite::asset('resources/images/resource/cause-image-1.jpg') }}" alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
                                 <div class="bar-inner count-bar" data-percent="80%"><div class="count-text">80%</div></div>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="lower-content">
-                        <h3><a href="cause-single.html">Medical Treatment</a></h3>
+                        <h3><a href="{{ route('aboutus') }}">Medical Treatment</a></h3>
                         <div class="cause-title">Medicine</div>
                         <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
                         <div class="donate-info clearfix">
@@ -44,7 +44,7 @@
                             <div class="raised"><i class="fa fa-chart-line"></i> <span>Raised:</span> <strong>$6,500</strong> </div>
                         </div>
                     </div>
-                    <div class="link-box"><a href="donate.html" class="theme-btn btn-style-two"><span class="btn-title">Donate Now</span></a></div>
+                    <div class="link-box"><a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Donate Now</span></a></div>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
             <div class="cause-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
                     <div class="image-box">
-                        <figure class="image"><a href="cause-single.html"><img src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}" alt=""></a></figure>
+                        <figure class="image"><a href=""><img src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}" alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
                                 <div class="bar-inner count-bar" data-percent="50%"><div class="count-text">50%</div></div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="lower-content">
-                        <h3><a href="cause-single.html">Feed Hungry Children</a></h3>
+                        <h3><a href="{{ route('aboutus') }}">Feed Hungry Children</a></h3>
                         <div class="cause-title">Food &amp; Water</div>
                         <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
                         <div class="donate-info clearfix">
@@ -68,7 +68,7 @@
                             <div class="raised"><i class="fa fa-chart-line"></i> <span>Raised:</span> <strong>$6,500</strong> </div>
                         </div>
                     </div>
-                    <div class="link-box"><a href="donate.html" class="theme-btn btn-style-two"><span class="btn-title">Donate Now</span></a></div>
+                    <div class="link-box"><a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Donate Now</span></a></div>
                 </div>
             </div>
 
@@ -76,7 +76,7 @@
             <div class="cause-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
                     <div class="image-box">
-                        <figure class="image"><a href="cause-single.html"><img src="{{ Vite::asset('resources/images/resource/cause-image-3.jpg') }}" alt=""></a></figure>
+                        <figure class="image"><a href="#"><img src="{{ Vite::asset('resources/images/resource/cause-image-3.jpg') }}" alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
                                 <div class="bar-inner count-bar" data-percent="40%"><div class="count-text">40%</div></div>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="lower-content">
-                        <h3><a href="cause-single.html">Education For People</a></h3>
+                        <h3><a href="#">Education For People</a></h3>
                         <div class="cause-title">Education</div>
                         <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
                         <div class="donate-info clearfix">
@@ -92,7 +92,7 @@
                             <div class="raised"><i class="fa fa-chart-line"></i> <span>Raised:</span> <strong>$6,500</strong> </div>
                         </div>
                     </div>
-                    <div class="link-box"><a href="donate.html" class="theme-btn btn-style-two"><span class="btn-title">Donate Now</span></a></div>
+                    <div class="link-box"><a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Donate Now</span></a></div>
                 </div>
             </div>
 
