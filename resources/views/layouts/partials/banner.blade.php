@@ -3,7 +3,7 @@
     <div class="banner-carousel kausid-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/4.jpg') }}')"></div>
+            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/banner1.jpg') }}')"></div>
 
             <div class="auto-container">
                 <div class="content-box">
@@ -24,7 +24,7 @@
 
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/5.jpg') }}')"></div>
+            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/banner2.jpg') }}')"></div>
 
             <div class="auto-container">
                 <div class="content-box">
@@ -45,7 +45,7 @@
 
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/6.jpg') }}')"></div>
+            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/banner5.jpg') }}')"></div>
 
             <div class="auto-container">
                 <div class="content-box">
@@ -65,7 +65,7 @@
         </div>
 
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/6.jpg') }}')"></div>
+            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/banner3.jpg') }}')"></div>
 
             <div class="auto-container">
                 <div class="content-box">
