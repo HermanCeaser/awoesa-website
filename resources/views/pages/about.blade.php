@@ -11,8 +11,8 @@
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="{{ route('home')}}">Home</a></li>
-                    <li><a href="{{ route('home')}}">Pages</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('home') }}">Pages</a></li>
                     <li class="active">About</li>
                 </ul>
             </div>
@@ -49,21 +49,30 @@
                 <div class="text-column col-lg-7 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
+                            <div class="sub-title"><span class="icon"></span> Who we are</div>
                             <h2>Warmth & True Support <br>For Needed People</h2>
                             <div class="lower-title">We make ways to good things happen</div>
                         </div>
-                        <div class="lower-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incids dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
-                            exercital tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                            dolor in reprehenderit in voluptate velit esse cillum dolore euy fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident sunt in culpa.</div>
+                        <div class="lower-text">Aid widow and Orphans Education support Organization (AWOESO) is a
+                            christian relief and development Non- Government Organization with it’s head offices in
+                            Juba, the capital city of South Sudan. AWOESO was formed in 2000, as a community based
+                            organization to respond to the overwhelming and increasing number of orphans, widows,
+                            internally displaced persons (IDPs), in the Equatorial Region (Central, Eastern and Western
+                            States) and South Sudan at large</div>
+                        <div class="lower-text">
+                            Acknowledging the limited capacity of the government and the increasing demand of the people
+                            of South Sudan for Economic Development, Health care, Human Rights, Shelter, Rehabilitation,
+                            and Education to the most vulnerable people. AWOESO was therefore formed to support the
+                            vulnerable people with Education Support, Shelter, Relief Aid, Health care support ,
+                            Rehabilitation and also advocate for equality, women empowerment and Justice for al
+                        </div>
                     </div>
                 </div>
                 <!--Image Column-->
                 <div class="image-column col-lg-5 col-md-12 col-sm-12">
                     <figure class="image wow slideInRight" data-wow-delay="0ms"><img
-                            src="{{ Vite::asset('resources/images/resource/featured-image-5.jpg') }}" alt="" /></figure>
+                            src="{{ Vite::asset('resources/images/resource/featured-image-5.jpg') }}" alt="" />
+                    </figure>
                 </div>
             </div>
 
@@ -174,7 +183,10 @@
 
     <!--Team Section-->
     <section class="team-section">
-        <div class="icon-one paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.20" data-paroller-factor-sm="-0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-tshirt"></span></div>
+        <div class="icon-one paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.20"
+            data-paroller-factor-sm="-0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <span class="flaticon-tshirt"></span>
+        </div>
 
         <div class="auto-container">
 
@@ -185,11 +197,14 @@
             </div>
 
             <div class="carousel-box">
-                <div class="kausid-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "800":{ "items" : "2" }, "1024":{ "items" : "3" }}}'>
+                <div class="kausid-carousel owl-theme owl-carousel"
+                    data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "800":{ "items" : "2" }, "1024":{ "items" : "3" }}}'>
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Scott William</a></h3>
                             <div class="designation">Head of Team</div>
                         </div>
@@ -197,7 +212,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Liam Irvines</a></h3>
                             <div class="designation">Senior Admin</div>
                         </div>
@@ -205,7 +222,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Diana Leslie</a></h3>
                             <div class="designation">Junior Volunteer</div>
                         </div>
@@ -213,7 +232,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Scott William</a></h3>
                             <div class="designation">Head of Team</div>
                         </div>
@@ -221,7 +242,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Liam Irvines</a></h3>
                             <div class="designation">Senior Admin</div>
                         </div>
@@ -229,7 +252,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Diana Leslie</a></h3>
                             <div class="designation">Junior Volunteer</div>
                         </div>
@@ -237,7 +262,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Scott William</a></h3>
                             <div class="designation">Head of Team</div>
                         </div>
@@ -245,7 +272,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Liam Irvines</a></h3>
                             <div class="designation">Senior Admin</div>
                         </div>
@@ -253,7 +282,9 @@
                     <!--Team Block-->
                     <div class="team-block">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}" alt=""></a></figure>
+                            <figure class="image-box"><a href="#"><img
+                                        src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}"
+                                        alt=""></a></figure>
                             <h3><a href="#">Diana Leslie</a></h3>
                             <div class="designation">Junior Volunteer</div>
                         </div>
@@ -269,11 +300,12 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
-                    <h2>Become a vital part of Kausid &amp; make a real difference to lives of many!</h2>
+                    <h2>Become a vital part of AWOESO &amp; make a real difference to lives of many!</h2>
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to Volunteer</span></a>
+                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to
+                                Volunteer</span></a>
                     </div>
                 </div>
             </div>
@@ -289,12 +321,22 @@
                 <div class="text-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
                         <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
-                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
+                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut
+                            psum dolore magna aliqua minim.</div>
                         <div class="info-list">
                             <ul class="clearfix">
-                                <li><div class="icon"><span class="flaticon-first-aid-kit"></span></div><span class="title">Medical</span></li>
-                                <li><div class="icon"><span class="flaticon-book"></span></div><span class="title">Education</span></li>
-                                <li><div class="icon"><span class="flaticon-shelter"></span></div><span class="title">Shelter</span></li>
+                                <li>
+                                    <div class="icon"><span class="flaticon-first-aid-kit"></span></div><span
+                                        class="title">Medical</span>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="flaticon-book"></span></div><span
+                                        class="title">Education</span>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="flaticon-shelter"></span></div><span
+                                        class="title">Shelter</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -303,31 +345,44 @@
                 <div class="faq-column col-lg-6 col-md-12 col-sm-12">
                     <div class="accordion-box">
                         <!--Block-->
-                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the people in need <div class="icon flaticon-cross"></div></div>
+                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms"
+                            data-wow-duration="1500ms">
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help
+                                the people in need <div class="icon flaticon-cross"></div>
+                            </div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
+                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat
+                                        duis rue dolor prehendrit lorem sed ipsum torabs.</div>
                                 </div>
                             </div>
                         </div>
 
                         <!--Block-->
                         <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean water <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide
+                                clean water <div class="icon flaticon-cross"></div>
+                            </div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
+                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat
+                                        duis rue dolor prehendrit lorem sed ipsum torabs.</div>
                                 </div>
                             </div>
                         </div>
 
                         <!--Block-->
                         <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in response to a disaster <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in
+                                response to a disaster <div class="icon flaticon-cross"></div>
+                            </div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
+                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat
+                                        duis rue dolor prehendrit lorem sed ipsum torabs.</div>
                                 </div>
                             </div>
                         </div>
@@ -408,36 +463,44 @@
                 <div class="kausid-carousel owl-theme owl-carousel"
                     data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "800":{ "items" : "3" }, "1024":{ "items" : "4" }}}'>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/1.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/1.png') }}" alt=""></a>
+                        </figure>
                     </div>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/2.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/2.png') }}" alt=""></a>
+                        </figure>
                     </div>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/3.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/3.png') }}" alt=""></a>
+                        </figure>
                     </div>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/4.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/4.png') }}" alt=""></a>
+                        </figure>
                     </div>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/1.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/1.png') }}" alt=""></a>
+                        </figure>
                     </div>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/2.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/2.png') }}" alt=""></a>
+                        </figure>
                     </div>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/3.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/3.png') }}" alt=""></a>
+                        </figure>
                     </div>
                     <div class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{ Vite::asset('resources/images/clients/4.png') }}"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ Vite::asset('resources/images/clients/4.png') }}" alt=""></a>
+                        </figure>
                     </div>
                 </div>
             </div>

@@ -29,7 +29,7 @@
                     <div class="inner clearfix">
                         <div class="top-left clearfix">
                             <ul class="info clearfix">
-                                <li>Become A Helping Hand For The Poor</li>
+                                <li>To serve the most vulnerable people in south Sudan</li>
                             </ul>
                         </div>
 

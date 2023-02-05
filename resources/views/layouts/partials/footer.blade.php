@@ -52,7 +52,7 @@
                                 <div class="widget-content">
                                     <h3>Our Partners</h3>
                                     <ul>
-                                        <li><a href="#">Donate Kausid</a></li>
+                                        <li><a href="#">Donate AWOESO </a></li>
                                         <li><a href="#">Save Our earth</a></li>
                                         <li><a href="#">Water Shortages</a></li>
                                         <li><a href="#">Recycle Better</a></li>
@@ -127,7 +127,7 @@
         <div class="auto-container">
             <div class="inner">
                 <!--Copyright-->
-                <div class="copyright">Copyrights (c) 2019 <a href="#">Kausid Charity & Non-Profit Theme.</a> All rights reserved.</div>
+                <div class="copyright">Copyrights (c) 2019 <a href="#">AWOESO Charity & Non-Profit Theme.</a> All rights reserved.</div>
             </div>
         </div>
     </div>

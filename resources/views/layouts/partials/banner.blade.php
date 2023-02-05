@@ -10,7 +10,7 @@
                     <div class="content">
                         <div class="inner">
                             <div class="sub-title">support the causes that matters</div>
-                            <h2>Empowering the lives of needy people</h2>
+                            <h2>Help HIV/AIDS widows, children, orphans and disabled people</h2>
                             <div class="links-box">
                                 <a href="#" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
                                 <span class="theme-icon"></span>
@@ -31,7 +31,7 @@
                     <div class="content">
                         <div class="inner">
                             <div class="sub-title">support the causes that matters</div>
-                            <h2>Empowering the lives of needy people</h2>
+                            <h2>Rescue and protect marginalized and vulnerable children, women, youth</h2>
                             <div class="links-box">
                                 <a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
                                 <span class="theme-icon"></span>
@@ -53,6 +53,26 @@
                         <div class="inner">
                             <div class="sub-title">support the causes that matters</div>
                             <h2>Empowering the lives of needy people</h2>
+                            <div class="links-box">
+                                <a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
+                                <span class="theme-icon"></span>
+                                <a href="{{ route('aboutus') }}" class="theme-btn btn-style-three"><span class="btn-title">who we are</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-item">
+            <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/main-slider/6.jpg') }}')"></div>
+
+            <div class="auto-container">
+                <div class="content-box">
+                    <div class="content">
+                        <div class="inner">
+                            <div class="sub-title">support the causes that matters</div>
+                            <h2>Participate in relief and rehabilitation projects to support the needy</h2>
                             <div class="links-box">
                                 <a href="{{ route('donate') }}" class="theme-btn btn-style-two"><span class="btn-title">Get involved</span></a>
                                 <span class="theme-icon"></span>

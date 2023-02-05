@@ -1,4 +1,4 @@
-/* Kausid - Charity and Crowd Funding HTML Template  */
+/* AWOESO - Charity and Crowd Funding HTML Template  */
 
 /*********** TABLE OF CONTENTS **************
 1. Fonts
@@ -57,7 +57,7 @@
 
 **********************************************/
 
-/*** 
+/***
 
 ====================================================================
 			Fonts
@@ -93,7 +93,7 @@ font-family: 'PT Sans', sans-serif;
   font-display: block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Reset
@@ -110,7 +110,7 @@ font-family: 'PT Sans', sans-serif;
 	line-height: inherit;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -119,7 +119,7 @@ font-family: 'PT Sans', sans-serif;
  ***/
 
 body {
-	
+
 	font-size:16px;
 	color:#2f3753;
 	line-height:1.5em;
@@ -158,7 +158,7 @@ h1,h2,h3,h4,h5,h6 {
 
 textarea{
 	overflow:hidden;
-	resize: none;	
+	resize: none;
 }
 
 button{
@@ -203,7 +203,7 @@ p{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 figure{
@@ -691,36 +691,36 @@ figure{
 	float: left;
 }
 
-.preloader{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:999999; 
+.preloader{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:999999;
 	background-color:rgba(0,0,0,0);
-} 
+}
 
-.preloader .icon{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:5; 
-	background-color:rgba(0,0,0,0); 
-	background-position:center center; 
-	background-repeat:no-repeat; 
+.preloader .icon{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:5;
+	background-color:rgba(0,0,0,0);
+	background-position:center center;
+	background-repeat:no-repeat;
 	background-image:url(../images/icons/preloader.svg);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-} 
+}
 
 .page-loaded .preloader .icon{
-	opacity:0; 
+	opacity:0;
 }
 
 .preloader:before{
@@ -731,7 +731,7 @@ figure{
 	width:51%;
 	height:100%;
 	background:#ffffff;
-	z-index:0; 
+	z-index:0;
 	-webkit-transform:translateX(0%);
 	-ms-transform:translateX(0%);
 	transform:translateX(0%);
@@ -756,7 +756,7 @@ figure{
 	width:51%;
 	height:100%;
 	background:#ffffff;
-	z-index:2; 
+	z-index:2;
 	-webkit-transform:translateX(0%);
 	-ms-transform:translateX(0%);
 	transform:translateX(0%);
@@ -776,7 +776,7 @@ figure{
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
 .dropdown-toggle::after{
@@ -787,7 +787,7 @@ img{
 	line-height: inherit;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -826,7 +826,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -917,7 +917,7 @@ img{
 }
 
 .main-header .header-top .info .search-btn{
-	position:relative;	
+	position:relative;
 }
 
 .main-header .header-top .info .search-toggler{
@@ -926,7 +926,7 @@ img{
 	background:none;
 	margin:0;
 	line-height:30px;
-	color: #2f3753;	
+	color: #2f3753;
 	font-size:14px;
 	cursor:pointer;
 }
@@ -991,7 +991,7 @@ img{
 	left: auto !important;
 	right: -10px;
 	top:45px !important;
-	width:170px;	
+	width:170px;
 	border-radius:0px;
 	padding:0px;
 	margin-top:0px;
@@ -1047,7 +1047,7 @@ img{
 }
 
 .header-top .change-language .language .dropdown-menu > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .header-top .change-language .language .dropdown-menu > li > a{
@@ -1081,7 +1081,7 @@ img{
 }
 
 .main-header .header-upper .inner-container{
-	position:relative;	
+	position:relative;
 }
 
 .main-header .header-upper .logo-box{
@@ -1207,7 +1207,7 @@ img{
 }
 
 .sticky-header .main-menu .navigation > li.dropdown{
-	padding-right:0px;	
+	padding-right:0px;
 }
 
 .main-menu .navigation > li > ul{
@@ -1236,7 +1236,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -1246,7 +1246,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li:hover > a{
@@ -1282,7 +1282,7 @@ img{
 	font-size:16px;
 	font-weight:800;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul{
@@ -1309,7 +1309,7 @@ img{
 
 .main-menu .navigation > li > ul > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -1319,7 +1319,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a{
@@ -1354,7 +1354,7 @@ img{
 	line-height:24px;
 	font-size:16px;
 	font-weight:900;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -1384,7 +1384,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;	
+	-o-transition:all 300ms ease;
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn{
@@ -1404,7 +1404,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 				Sticky Header
@@ -1473,7 +1473,7 @@ img{
 
 .sticky-header .main-menu .navigation > li > ul > li > ul{
 	left:auto;
-	right:100%;	
+	right:100%;
 }
 
 .sticky-header .main-menu .navigation > li:hover > a,
@@ -1482,7 +1482,7 @@ img{
 	opacity:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Mobile Menu
@@ -1515,17 +1515,17 @@ img{
 }
 
 .mobile-menu .mCSB_inside>.mCSB_container{
-	margin-right:5px;	
+	margin-right:5px;
 }
 
 .mobile-menu .navbar-collapse{
-	display:block !important;	
+	display:block !important;
 }
 
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:30px 25px;
-	text-align:left;	
+	text-align:left;
 }
 
 .mobile-menu-visible{
@@ -1664,7 +1664,7 @@ img{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li ul li > a{
@@ -1684,7 +1684,7 @@ img{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li.current > a:before{
@@ -1708,14 +1708,14 @@ img{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 	z-index:5;
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn.open{
 	-webkit-transform:rotate(90deg);
 	-ms-transform:rotate(90deg);
-	transform:rotate(90deg);	
+	transform:rotate(90deg);
 }
 
 .mobile-menu .navigation li > ul,
@@ -1744,10 +1744,10 @@ img{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Lazy Load Settings
@@ -1756,7 +1756,7 @@ img{
 ***/
 
 img.lazy-image{
-	background:url(../images/icons/image-bg.svg) center center no-repeat;	
+	background:url(../images/icons/image-bg.svg) center center no-repeat;
 }
 
 img.lazy-image.loaded{
@@ -1774,7 +1774,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Banner Section
@@ -1940,7 +1940,7 @@ img.lazy-image.loaded{
 
 .banner-carousel .content-box h2{
 	display: block;
-	font-size: 72px;
+	font-size: 65px;
 	line-height: 1.15em;
 	color: #ffffff;
 	font-weight: 700;
@@ -2202,7 +2202,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Section Title
@@ -2291,7 +2291,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	About Section
@@ -2306,16 +2306,16 @@ img.lazy-image.loaded{
 }
 
 .about-section .left-column .sec-title{
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .about-section .left-column{
 	position:relative;
-	margin-bottom:50px;	
+	margin-bottom:50px;
 }
 
 .about-section .left-column .inner{
-	position:relative;	
+	position:relative;
 }
 
 .about-section .left-column .lower-box{
@@ -2411,7 +2411,7 @@ img.lazy-image.loaded{
 
 .about-section .right-column{
 	position:relative;
-	margin-bottom:50px;	
+	margin-bottom:50px;
 }
 
 .about-feature-box{
@@ -2516,7 +2516,7 @@ img.lazy-image.loaded{
 	font-size:24px;
 	font-weight: 700;
 	text-transform: capitalize;
-	line-height:1.3em;	
+	line-height:1.3em;
 }
 
 .about-feature-box .about-feature h3 a{
@@ -2528,7 +2528,7 @@ img.lazy-image.loaded{
 }
 
 .about-feature-box .outer{
-	margin:0px 0px;	
+	margin:0px 0px;
 }
 
 .about-feature-box .about-feature{
@@ -2538,7 +2538,7 @@ img.lazy-image.loaded{
 	width: 50%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Causes Section
@@ -2637,7 +2637,7 @@ img.lazy-image.loaded{
 
 .cause-block{
 	position:relative;
-	margin-bottom:70px;	
+	margin-bottom:70px;
 }
 
 .load-more-item{
@@ -2661,7 +2661,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .cause-block.alternate .inner-box{
@@ -2675,12 +2675,12 @@ img.lazy-image.loaded{
 }
 
 .cause-block .image-box{
-	position:relative;	
+	position:relative;
 }
 
 .cause-block .image-box img{
 	display: block;
-	width:100%;	
+	width:100%;
 	border-radius:5px 5px 0px 0px;
 }
 
@@ -2709,7 +2709,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 1500ms ease;
 	-o-transition:all 1500ms ease;
 	-moz-transition:all 1500ms ease;
-	transition:all 1500ms ease;	
+	transition:all 1500ms ease;
 }
 
 .cause-block .inner-box .progress-box .count-text{
@@ -2731,7 +2731,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	transition:all 500ms ease;	
+	transition:all 500ms ease;
 }
 
 .cause-block.alternate .inner-box .progress-box .count-text{
@@ -2743,7 +2743,7 @@ img.lazy-image.loaded{
 }
 
 .cause-block .inner-box .progress-box .bar-inner.counted .count-text{
-	opacity:1;	
+	opacity:1;
 }
 
 .cause-block .inner-box .progress-box .count-text:after{
@@ -2753,7 +2753,7 @@ img.lazy-image.loaded{
 	margin-left:-5px;
 	bottom: 100%;
 	border:5px solid transparent;
-	border-bottom: 5px solid #3f6b92;	
+	border-bottom: 5px solid #3f6b92;
 }
 
 .cause-block.alternate .inner-box .progress-box .count-text:after{
@@ -2769,12 +2769,12 @@ img.lazy-image.loaded{
 	padding:60px 20px 40px;
 	border:1px solid #ddeaeb;
 	border-top: none;
-	border-bottom: none;	
+	border-bottom: none;
 }
 
 .cause-block.alternate .inner-box .lower-content{
 	border-bottom:1px solid #ddeaeb;
-	border-radius:0px 0px 5px 5px;	
+	border-radius:0px 0px 5px 5px;
 }
 
 .cause-block .inner-box h3{
@@ -2809,7 +2809,7 @@ img.lazy-image.loaded{
 .cause-block .inner-box .donate-info{
 	position:relative;
 	font-size: 14px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .cause-block .inner-box .donate-info i{
@@ -2892,7 +2892,7 @@ img.lazy-image.loaded{
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Adopt CHild Section
@@ -3150,7 +3150,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Become Partner Section
@@ -3262,7 +3262,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Fun Facts Section
@@ -3357,7 +3357,7 @@ img.lazy-image.loaded{
 	text-transform: uppercase;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Join Events Section
@@ -3559,7 +3559,7 @@ img.lazy-image.loaded{
 	width: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -3691,7 +3691,7 @@ img.lazy-image.loaded{
 	opacity: 0.30;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -3781,7 +3781,7 @@ img.lazy-image.loaded{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	How We Help Section
@@ -3956,7 +3956,7 @@ img.lazy-image.loaded{
 	font-size: 14px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Section
@@ -4178,7 +4178,7 @@ img.lazy-image.loaded{
 	position:relative;
 	top:3px;
 	text-indent:0px;
-	color:#333333;	
+	color:#333333;
 }
 
 .form-group .ui-button .ui-icon:before{
@@ -4210,7 +4210,7 @@ img.lazy-image.loaded{
 }
 
 .ui-menu .ui-menu-item:last-child{
-	border:none;	
+	border:none;
 }
 
 .ui-menu .ui-menu-item-wrapper{
@@ -4338,7 +4338,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Sponsors Section
@@ -4391,7 +4391,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Call to Action Section
@@ -4465,7 +4465,7 @@ img.lazy-image.loaded{
 	background: #3f6b92;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -4543,7 +4543,7 @@ img.lazy-image.loaded{
 .main-footer .footer-logo{
 	position:relative;
 	margin-top:-10px;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 }
 
 .main-footer .logo-widget .text{
@@ -4562,7 +4562,7 @@ img.lazy-image.loaded{
 }
 
 .main-footer .links-widget ul li:last-child{
-	margin:0;	
+	margin:0;
 }
 
 .main-footer .links-widget ul li a{
@@ -4619,7 +4619,7 @@ img.lazy-image.loaded{
 }
 
 .main-footer .info-widget ul li:last-child{
-	margin:0;	
+	margin:0;
 }
 
 .main-footer .info-widget ul li a{
@@ -4740,7 +4740,7 @@ img.lazy-image.loaded{
 	color: #aaaaaa;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Our Moto
@@ -4856,7 +4856,7 @@ img.lazy-image.loaded{
 	text-decoration: underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section Two
@@ -4870,7 +4870,7 @@ img.lazy-image.loaded{
 }
 
 .about-section-two .text-column .sec-title{
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .about-section-two .image-column{
@@ -4880,7 +4880,7 @@ img.lazy-image.loaded{
 
 .about-section-two .image-column .inner{
 	position:relative;
-	padding-right: 30px;	
+	padding-right: 30px;
 }
 
 .about-section-two .image-column img{
@@ -4896,7 +4896,7 @@ img.lazy-image.loaded{
 }
 
 .about-section-two .left-column .inner{
-	position:relative;	
+	position:relative;
 }
 
 .about-section-two .text-column .lower-box{
@@ -5018,7 +5018,7 @@ img.lazy-image.loaded{
 	text-transform: capitalize;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section Three
@@ -5094,7 +5094,7 @@ img.lazy-image.loaded{
 }
 
 .about-section-three .text-column .sec-title{
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .about-section-three .text-column .lower-text{
@@ -5207,7 +5207,7 @@ img.lazy-image.loaded{
 	text-decoration: underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fun Facts Section Two
@@ -5467,7 +5467,7 @@ img.lazy-image.loaded{
 	background-color: #333333;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Start Giving Section
@@ -5541,7 +5541,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section
@@ -5707,7 +5707,7 @@ img.lazy-image.loaded{
 	transform: scale(1);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Upcoming Events Section
@@ -5951,7 +5951,7 @@ img.lazy-image.loaded{
 	background: #dc4549;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Two Section
@@ -6100,7 +6100,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -6450,7 +6450,7 @@ img.lazy-image.loaded{
 	padding-top: 70px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Insta Gallery Section
@@ -6538,7 +6538,7 @@ img.lazy-image.loaded{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Banner Style
@@ -6563,7 +6563,7 @@ img.lazy-image.loaded{
 	height:100%;
 	background-position:center center;
 	background-repeat:no-repeat;
-	background-size:cover;	
+	background-size:cover;
 }
 
 .page-banner .image-layer:before{
@@ -6574,12 +6574,12 @@ img.lazy-image.loaded{
 	width:100%;
 	height:100%;
 	background:#000000;
-	opacity:0.50;	
+	opacity:0.50;
 }
 
 .page-banner .auto-container{
 	position:relative;
-	z-index:1;	
+	z-index:1;
 }
 
 .page-banner h1{
@@ -6631,11 +6631,11 @@ img.lazy-image.loaded{
 }
 
 .page-banner .bread-crumb li:first-child{
-	margin-left:0px;	
+	margin-left:0px;
 }
 
 .page-banner .bread-crumb li:last-child:before{
-	display:none;	
+	display:none;
 }
 
 .page-banner .bread-crumb li a{
@@ -6651,7 +6651,7 @@ img.lazy-image.loaded{
 	text-decoration: underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Bottom Info Section
@@ -6711,7 +6711,7 @@ img.lazy-image.loaded{
 	text-decoration: underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 		FAQ Section
@@ -6748,7 +6748,7 @@ img.lazy-image.loaded{
 	margin-bottom: 0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Map Section Style
@@ -6777,11 +6777,11 @@ img.lazy-image.loaded{
 }
 
 .map-section .google-map{
-	height:580px;	
+	height:580px;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Default Section
@@ -6954,7 +6954,7 @@ img.lazy-image.loaded{
 	padding: 35px 35px 20px;
 }
 
-.accordion-box .block.current .acc-content{ 
+.accordion-box .block.current .acc-content{
 	display: block;
 }
 
@@ -6966,7 +6966,7 @@ img.lazy-image.loaded{
 	line-height: 1.6em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Donate Now
@@ -6995,7 +6995,7 @@ img.lazy-image.loaded{
 
 .donate-section .form-column{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .donate-section .sel-payment-type{
@@ -7005,7 +7005,7 @@ img.lazy-image.loaded{
 
 .donate-section .sel-type{
 	position:relative;
-	margin: 0px -7px 10px;	
+	margin: 0px -7px 10px;
 }
 
 .donate-section .select-box-one{
@@ -7013,7 +7013,7 @@ img.lazy-image.loaded{
 	float:left;
 	padding: 0px 7px;
 	text-align:center;
-	margin:0px 0px 15px 0px;	
+	margin:0px 0px 15px 0px;
 }
 
 .donate-section .select-box-one input[type="radio"]{
@@ -7021,7 +7021,7 @@ img.lazy-image.loaded{
 	top:0px;
 	visibility:hidden;
 	position:absolute;
-	opacity:0;	
+	opacity:0;
 }
 
 .donate-section .select-box-one label{
@@ -7046,7 +7046,7 @@ img.lazy-image.loaded{
 .donate-section .select-box-one input[type="radio"]:checked+label{
 	background:#3f6b92;
 	border-color:#3f6b92;
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 .donate-section .sel-payment-amount{
@@ -7058,7 +7058,7 @@ img.lazy-image.loaded{
 
 .donate-section .select-amount{
 	position:relative;
-	margin: 0px -7px 10px;	
+	margin: 0px -7px 10px;
 }
 
 .donate-section .select-box-two{
@@ -7067,7 +7067,7 @@ img.lazy-image.loaded{
 	padding: 0px 7px;
 	min-width:94px;
 	text-align:center;
-	margin:0px 0px 14px 0px;	
+	margin:0px 0px 14px 0px;
 }
 
 .donate-section .input-box{
@@ -7081,7 +7081,7 @@ img.lazy-image.loaded{
 	top:0px;
 	visibility:hidden;
 	position:absolute;
-	opacity:0;	
+	opacity:0;
 }
 
 .donate-section .select-box-two label{
@@ -7104,7 +7104,7 @@ img.lazy-image.loaded{
 .donate-section .select-box-two input[type="radio"]:checked+label{
 	background:#dc4549;
 	border-color:#dc4549;
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 .donate-section .other-input-box{
@@ -7165,7 +7165,7 @@ img.lazy-image.loaded{
 	position:relative;
 	float:left;
 	text-align:center;
-	margin:0px 15px 15px 0px;	
+	margin:0px 15px 15px 0px;
 }
 
 .donate-section .payment-info-select input[type="radio"]{
@@ -7173,7 +7173,7 @@ img.lazy-image.loaded{
 	top:0px;
 	visibility:hidden;
 	position:absolute;
-	opacity:0;	
+	opacity:0;
 }
 
 .donate-section .payment-info-select label{
@@ -7203,12 +7203,12 @@ img.lazy-image.loaded{
 .donate-section .payment-info-select input[type="radio"]:checked+label{
 	background:#3f6b92;
 	border-color:#3f6b92;
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 .donate-section .info-column{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .donate-section .info-column .inner{
@@ -7218,7 +7218,7 @@ img.lazy-image.loaded{
 
 .cause-box-widget{
 	position:relative;
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .cause-box-widget .inner-box{
@@ -7231,7 +7231,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .cause-box-widget .inner-box:hover{
@@ -7241,12 +7241,12 @@ img.lazy-image.loaded{
 }
 
 .cause-box-widget .image-box{
-	position:relative;	
+	position:relative;
 }
 
 .cause-box-widget .image-box img{
 	display: block;
-	width:100%;	
+	width:100%;
 	border-radius:5px 5px 0px 0px;
 }
 
@@ -7275,7 +7275,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 1500ms ease;
 	-o-transition:all 1500ms ease;
 	-moz-transition:all 1500ms ease;
-	transition:all 1500ms ease;	
+	transition:all 1500ms ease;
 }
 
 .cause-box-widget .inner-box .progress-box .count-text{
@@ -7297,11 +7297,11 @@ img.lazy-image.loaded{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	transition:all 500ms ease;	
+	transition:all 500ms ease;
 }
 
 .cause-box-widget .inner-box .progress-box .bar-inner.counted .count-text{
-	opacity:1;	
+	opacity:1;
 }
 
 .cause-box-widget .inner-box .progress-box .count-text:after{
@@ -7311,7 +7311,7 @@ img.lazy-image.loaded{
 	margin-left:-5px;
 	bottom: 100%;
 	border:5px solid transparent;
-	border-bottom: 5px solid #3f6b92;	
+	border-bottom: 5px solid #3f6b92;
 }
 
 .cause-box-widget .inner-box .lower-content{
@@ -7354,7 +7354,7 @@ img.lazy-image.loaded{
 .cause-box-widget .inner-box .donate-info{
 	position:relative;
 	font-size: 14px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .cause-box-widget .inner-box .donate-info i{
@@ -7382,7 +7382,7 @@ img.lazy-image.loaded{
 
 .organizer-widget{
 	position:relative;
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .organizer-widget .widget-inner{
@@ -7525,7 +7525,7 @@ img.lazy-image.loaded{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -7580,7 +7580,7 @@ img.lazy-image.loaded{
 .sidebar .about-widget .image{
 	position:relative;
 	display: block;
-	margin:0px 0px 25px;	
+	margin:0px 0px 25px;
 }
 
 .sidebar .about-widget .image img{
@@ -7631,7 +7631,7 @@ img.lazy-image.loaded{
 	line-height:24px;
 	font-size:12px;
 	color: #3f6b92;
-	font-weight:800;	
+	font-weight:800;
 }
 
 .sidebar .category-widget ul li a:hover,
@@ -7754,7 +7754,7 @@ img.lazy-image.loaded{
 .sidebar .event-widget .image{
 	position:relative;
 	display: block;
-	margin:0px 0px 25px;	
+	margin:0px 0px 25px;
 }
 
 .sidebar .event-widget .image img{
@@ -7844,7 +7844,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Styled Pagination
@@ -7903,7 +7903,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Post Details / Blog Details
@@ -8313,7 +8313,7 @@ img.lazy-image.loaded{
 	margin-bottom: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Area
@@ -8396,7 +8396,7 @@ img.lazy-image.loaded{
 	text-decoration: underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Leave Comments Form
@@ -8409,7 +8409,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Cause Details
@@ -8433,13 +8433,13 @@ img.lazy-image.loaded{
 
 .cause-details .upper-box .image{
 	display: block;
-	width:100%;	
+	width:100%;
 	border-radius:5px 5px 0px 0px;
 }
 
 .cause-details .upper-box .image img{
 	display: block;
-	width:100%;	
+	width:100%;
 	border-radius:5px 5px 0px 0px;
 }
 
@@ -8468,7 +8468,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 1500ms ease;
 	-o-transition:all 1500ms ease;
 	-moz-transition:all 1500ms ease;
-	transition:all 1500ms ease;	
+	transition:all 1500ms ease;
 }
 
 .cause-details .upper-box .progress-box .count-text{
@@ -8490,11 +8490,11 @@ img.lazy-image.loaded{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
-	transition:all 500ms ease;	
+	transition:all 500ms ease;
 }
 
 .cause-details .upper-box .progress-box .bar-inner.counted .count-text{
-	opacity:1;	
+	opacity:1;
 }
 
 .cause-details .upper-box .progress-box .count-text:after{
@@ -8504,7 +8504,7 @@ img.lazy-image.loaded{
 	margin-left:-5px;
 	bottom: 100%;
 	border:5px solid transparent;
-	border-bottom: 5px solid #3f6b92;	
+	border-bottom: 5px solid #3f6b92;
 }
 
 .cause-details h2{
@@ -8574,7 +8574,7 @@ img.lazy-image.loaded{
 	float: right;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Event Details
@@ -8720,7 +8720,7 @@ img.lazy-image.loaded{
 	letter-spacing: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section Four
@@ -8734,7 +8734,7 @@ img.lazy-image.loaded{
 }
 
 .about-section-four .text-column .sec-title{
-	margin-bottom:35px;	
+	margin-bottom:35px;
 }
 
 .about-section-four .image-column{
@@ -8745,7 +8745,7 @@ img.lazy-image.loaded{
 .about-section-four .image-column .inner{
 	position:relative;
 	padding-right: 30px;
-	margin-bottom: 110px;	
+	margin-bottom: 110px;
 }
 
 .about-section-four .image-column .image-box,
@@ -8796,7 +8796,7 @@ img.lazy-image.loaded{
 
 .about-section-four .left-column .inner{
 	position:relative;
-	display: block;	
+	display: block;
 }
 
 .about-section-four .text-column .text{
@@ -8804,7 +8804,7 @@ img.lazy-image.loaded{
 	margin: 0px 0px 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Featured Section
@@ -8848,7 +8848,7 @@ img.lazy-image.loaded{
 
 .featured-block-two{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .featured-block-two .inner-box{
@@ -8862,7 +8862,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .featured-block-two .inner-box:hover{
@@ -8872,12 +8872,12 @@ img.lazy-image.loaded{
 }
 
 .featured-block-two .image-box{
-	position:relative;	
+	position:relative;
 }
 
 .featured-block-two .image-box img{
 	display: block;
-	width:100%;	
+	width:100%;
 	border-radius:5px 5px 0px 0px;
 }
 
@@ -8886,7 +8886,7 @@ img.lazy-image.loaded{
 	padding:40px 25px;
 	border:1px solid #f0f0f0;
 	border-top: none;
-	border-radius:0px 0px 5px 5px;	
+	border-radius:0px 0px 5px 5px;
 }
 
 .featured-block-two .inner-box h3{
@@ -8964,7 +8964,7 @@ img.lazy-image.loaded{
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Call To Action Section
@@ -9151,7 +9151,7 @@ img.lazy-image.loaded{
 	color: #9a4cd6;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Activities Section
@@ -9221,7 +9221,7 @@ img.lazy-image.loaded{
 
 .activity-block .inner-box{
 	position:relative;
-	display: block;	
+	display: block;
 }
 
 .activity-block .image{
@@ -9362,7 +9362,7 @@ img.lazy-image.loaded{
 	margin-bottom: 40px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sponsors Section Two
@@ -9415,7 +9415,7 @@ img.lazy-image.loaded{
 	opacity:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section Two
@@ -9523,7 +9523,7 @@ img.lazy-image.loaded{
 
 .featured-block-three{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .featured-block-three .inner-box{
@@ -9538,7 +9538,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .featured-block-three .inner-box:hover{
@@ -9615,7 +9615,7 @@ img.lazy-image.loaded{
 }
 
 .featured-block-four{
-	position:relative;	
+	position:relative;
 }
 
 .featured-block-four .inner-box{
@@ -9630,7 +9630,7 @@ img.lazy-image.loaded{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .featured-block-four .inner-box:hover{
@@ -9677,7 +9677,7 @@ img.lazy-image.loaded{
 	position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Featured Section Two
@@ -9710,34 +9710,34 @@ img.lazy-image.loaded{
 
 .featured-block-five{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .featured-section-two .inner-container .featured-block-five{
 	padding: 0px 25px;
-	margin-bottom:50px;	
+	margin-bottom:50px;
 }
 
 .featured-block-five .inner-box{
 	position:relative;
 	display:block;
-	text-align: center;	
+	text-align: center;
 }
 
 .featured-block-five .image-box{
 	position:relative;
-	margin: 0;	
+	margin: 0;
 }
 
 .featured-block-five .image-box img{
 	display: block;
-	width:100%;	
+	width:100%;
 	border-radius:5px 5px;
 }
 
 .featured-block-five .inner-box .lower-content{
 	position:relative;
-	padding:35px 15px 0px;	
+	padding:35px 15px 0px;
 }
 
 .featured-block-five .inner-box h3{
@@ -9804,7 +9804,7 @@ img.lazy-image.loaded{
 	color: #f5a93f;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Message Section
@@ -9932,7 +9932,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	What We Do Section
@@ -9971,7 +9971,7 @@ img.lazy-image.loaded{
 
 .service-block{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .service-block .inner-box{
@@ -9979,7 +9979,7 @@ img.lazy-image.loaded{
 	display:block;
 	background: #ffffff;
 	padding: 60px 40px;
-	text-align: center;	
+	text-align: center;
 	border: 1px solid rgba(0,0,0,0.05);
 	border-radius: 5px;
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
@@ -10003,7 +10003,7 @@ img.lazy-image.loaded{
 	font-size: 64px;
 	line-height: 1em;
 	padding-bottom: 16px;
-	margin: 0 0 20px;	
+	margin: 0 0 20px;
 }
 
 .service-block .icon:before{
@@ -10066,7 +10066,7 @@ img.lazy-image.loaded{
 	background: #f5a93f;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Call to Box 2
