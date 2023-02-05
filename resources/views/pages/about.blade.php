@@ -83,53 +83,6 @@
 
     @include('layouts.partials.motto')
 
-    <!--Fun Facts Section-->
-    <section class="fun-facts-section">
-        <div class="auto-container">
-            <div class="fact-counter">
-                <div class="row clearfix">
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                        <div class="inner-box">
-                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="98520">0</span>
-                            </div>
-                            <div class="counter-title">raised Donations</div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="inner-box">
-                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="306">0</span>
-                            </div>
-                            <div class="counter-title">Causes Solved</div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                        <div class="inner-box">
-                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="84">0</span>
-                            </div>
-                            <div class="counter-title">Volunteers</div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
-                        <div class="inner-box">
-                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1369">0</span>
-                            </div>
-                            <div class="counter-title">Projects Done</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
     <section class="start-giving alternate">
         <div class="image-layer" style="background-image:url('images/background/bg-pattern-1.png')"></div>
 
@@ -139,9 +92,7 @@
                     <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
                     <h2>Start Giving Today &amp; <br>Good Things Will Happen!</h2>
                 </div>
-                <div class="text">Consectetur adipisicing elit usmod tempor incididut laboret ipsum dolore magna
-                    aliquaut enim mini veniam quis trud exercitation ullamco sed labo nisiut aliquip ex ea consequat
-                    duis aute rue dolor.</div>
+                <div class="text">Through your generous gift the vulnerable people in South Sudan get the aid they need to survive, recover and regain control of their lives..</div>
                 <div class="link-box"><a href="#" class="default-link">learn more</a></div>
             </div>
         </div>
@@ -158,8 +109,9 @@
 
             <div class="sec-title centered">
                 <div class="upper-icon"></div>
-                <h2>Our Volunters</h2>
-                <div class="text">We believe what we achieve</div>
+                <h2>Our Team</h2>
+                <div class="text">Volunteers play a critical role in helping vulnerable people thrive. AWOESO
+                    offers volunteer opportunities to work remotely and in person</div>
             </div>
 
             <div class="carousel-box">
@@ -171,8 +123,8 @@
                             <figure class="image-box"><a href="#"><img
                                         src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}"
                                         alt=""></a></figure>
-                            <h3><a href="#">Scott William</a></h3>
-                            <div class="designation">Head of Team</div>
+                            <h3><a href="#">Amule Samuel William</a></h3>
+                            <div class="designation">CEO</div>
                         </div>
                     </div>
                     <!--Team Block-->
@@ -181,8 +133,8 @@
                             <figure class="image-box"><a href="#"><img
                                         src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}"
                                         alt=""></a></figure>
-                            <h3><a href="#">Liam Irvines</a></h3>
-                            <div class="designation">Senior Admin</div>
+                            <h3><a href="#">Asienzo jackline Michael.</a></h3>
+                            <div class="designation">Deputy Admin</div>
                         </div>
                     </div>
                     <!--Team Block-->
@@ -199,7 +151,7 @@
                     <div class="team-block">
                         <div class="inner-box">
                             <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}"
+                                        src="{{ Vite::asset('resources/images/resource/team-image-4.jpg') }}"
                                         alt=""></a></figure>
                             <h3><a href="#">Scott William</a></h3>
                             <div class="designation">Head of Team</div>
@@ -209,7 +161,7 @@
                     <div class="team-block">
                         <div class="inner-box">
                             <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}"
+                                        src="{{ Vite::asset('resources/images/resource/team-image-5.jpg') }}"
                                         alt=""></a></figure>
                             <h3><a href="#">Liam Irvines</a></h3>
                             <div class="designation">Senior Admin</div>
@@ -219,49 +171,20 @@
                     <div class="team-block">
                         <div class="inner-box">
                             <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}"
+                                        src="{{ Vite::asset('resources/images/resource/team-image-6.jpg') }}"
                                         alt=""></a></figure>
                             <h3><a href="#">Diana Leslie</a></h3>
                             <div class="designation">Junior Volunteer</div>
                         </div>
                     </div>
-                    <!--Team Block-->
-                    <div class="team-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}"
-                                        alt=""></a></figure>
-                            <h3><a href="#">Scott William</a></h3>
-                            <div class="designation">Head of Team</div>
-                        </div>
-                    </div>
-                    <!--Team Block-->
-                    <div class="team-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-2.jpg') }}"
-                                        alt=""></a></figure>
-                            <h3><a href="#">Liam Irvines</a></h3>
-                            <div class="designation">Senior Admin</div>
-                        </div>
-                    </div>
-                    <!--Team Block-->
-                    <div class="team-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}"
-                                        alt=""></a></figure>
-                            <h3><a href="#">Diana Leslie</a></h3>
-                            <div class="designation">Junior Volunteer</div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
     <section class="call-to-action alternate-two">
-        <div class="image-layer" style="background-image:url('images/background/bg-pattern-1.png')"></div>
+        <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/background/bg-pattern-1.png') }}')"></div>
 
         <div class="auto-container">
             <div class="row clearfix">
@@ -279,86 +202,7 @@
     </section>
 
     <!--Default Section-->
-    <section class="default-section">
-        <div class="auto-container">
-
-            <div class="row clearfix">
-                <!--Text Column-->
-                <div class="text-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner">
-                        <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
-                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut
-                            psum dolore magna aliqua minim.</div>
-                        <div class="info-list">
-                            <ul class="clearfix">
-                                <li>
-                                    <div class="icon"><span class="flaticon-first-aid-kit"></span></div><span
-                                        class="title">Medical</span>
-                                </li>
-                                <li>
-                                    <div class="icon"><span class="flaticon-book"></span></div><span
-                                        class="title">Education</span>
-                                </li>
-                                <li>
-                                    <div class="icon"><span class="flaticon-shelter"></span></div><span
-                                        class="title">Shelter</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Faq Column-->
-                <div class="faq-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="accordion-box">
-                        <!--Block-->
-                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms"
-                            data-wow-duration="1500ms">
-                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help
-                                the people in need <div class="icon flaticon-cross"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
-                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat
-                                        duis rue dolor prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Block-->
-                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide
-                                clean water <div class="icon flaticon-cross"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
-                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat
-                                        duis rue dolor prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Block-->
-                        <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in
-                                response to a disaster <div class="icon flaticon-cross"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
-                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat
-                                        duis rue dolor prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    @include('layouts.partials.funfacts2')
 
     <!--Testimonial Section-->
     <section class="testimonial-section">

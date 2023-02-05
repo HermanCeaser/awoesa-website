@@ -4,6 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>AWOESO | Home </title>
+    <meta name="description"
+        content="Aids widow and Orphans Education support Organization (AWOESO) is a christian relief and development Non- Government Organization with it’s head offices in Juba, the capital city of South Sudan. AWOESO was formed in 2000, as a community based organization to respond to the overwhelming and increasing number of orphans, widows, internally displaced persons (IDPs), in the Equatorial Region (Central, Eastern and Western States) and South Sudan at large
+        Acknowledging the limited capacity of the government and the increasing demand of the people of South Sudan for Economic Development, Health care, Human Rights, Shelter, Rehabilitation, and Education to the most vulnerable people. AWOESO was therefore formed to support the vulnerable people with Education Support, Shelter, Relief Aid, Health care support , Rehabilitation and also advocate for equality, women empowerment and Justice for al">
+    <meta name="keywords"
+        content="AWOESO, Non Profit Organisation (NGO), Christian Reflief, Non Government Oganization, Poor, Poverty, Vulnerable, South Sudan, Orphans, Aids, Women, Education, Support, Human Rights, Healthcare, Shelter, Rehabilitation, Equality, empowerment, Justice for all">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <link rel="icon" href="{{ asset('assets/favicon.png') }}" type="image/x-icon" />
     @vite('resources/css/app.css')
 
     <!-- Responsive Settings -->
@@ -70,7 +78,7 @@
                     <div class="inner-container clearfix">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="{{ route('home')}}"
+                            <div class="logo"><a href="{{ route('home') }}"
                                     title="AWOESO - Aids widow and Orphans Education Support Organization"><img
                                         src="{{ Vite::asset('resources/images/logo-2.png') }}"
                                         alt="AWOESO - Aids widow and Orphans Education Support Organization"
@@ -87,21 +95,22 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li @class(['current'=>request()->routeIs('home')])><a href="{{ route('home')}}">Home</a>
+                                        <li @class(['current' => request()->routeIs('home')])><a href="{{ route('home') }}">Home</a>
                                         </li>
-                                        <li @class([ 'dropdown', 'current'=>request()->routeIs('aboutus')])><a href="#">About</a>
+                                        <li @class(['dropdown', 'current' => request()->routeIs('aboutus')])><a href="#">About</a>
                                             <ul>
-                                                <li @class(['current'=>request()->routeIs('aboutus')])><a href="{{ route('aboutus')}}">About Us</a></li>
+                                                <li @class(['current' => request()->routeIs('aboutus')])><a href="{{ route('aboutus') }}">About
+                                                        Us</a></li>
                                                 <li><a href="#">Our Volunteers</a></li>
                                                 <li><a href="#">Faq's</a></li>
                                                 <li><a href="#">Make Donation</a></li>
                                             </ul>
                                         </li>
-                                        <li @class(['current'=>request()->routeIs('causes')])><a href="#">Causes</a>
+                                        <li @class(['current' => request()->routeIs('causes')])><a href="#">Causes</a>
 
                                         </li>
 
-                                        <li @class(['current'=>request()->routeIs('contact')])><a href="#">Contact</a></li>
+                                        <li @class(['current' => request()->routeIs('contact')])><a href="#">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>

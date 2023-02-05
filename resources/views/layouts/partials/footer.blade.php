@@ -1,6 +1,7 @@
 <!-- Main Footer -->
 <footer class="main-footer">
-    <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/background/footer-bg.jpg')}}')"></div>
+    <div class="image-layer"
+        style="background-image:url('{{ Vite::asset('resources/images/background/footer-bg.jpg') }}')"></div>
 
     <div class="auto-container">
         <!--Widgets Section-->
@@ -12,9 +13,13 @@
                     <div class="footer-widget logo-widget">
                         <div class="widget-content">
                             <div class="footer-logo">
-                                <a href="{{ route('home') }}"><img src="{{ Vite::asset('resources/images/footer-logo.png') }}" alt="" /></a>
+                                <a href="{{ route('home') }}"><img
+                                        src="{{ Vite::asset('resources/images/footer-logo.png') }}"
+                                        alt="" /></a>
                             </div>
-                            <div class="text">Alit usmod tempor incididunt laboret quis arud exercitation ullamcos laboris nisiut aliquip. exa consequat duis aute rue dolor prehendrit lorem esse cillum dolore eu fugiat nulla.</div>
+                            <div class="text">Aid widow and Orphans Education support Organization (AWOESO) is a
+                                christian relief and development Non- Government Organization with it’s head offices in
+                                Juba, the capital city of South Sudan. </div>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -92,10 +97,14 @@
                                     <h3>Contact Us</h3>
                                     <ul class="contact-info">
                                         <li>P.O. Box 129, Juba, South Sudan</li>
-                                        <li><a href="tel:211-92-929-8488"><span class="fa fa-phone-alt"></span> Phone 211-92-929-8488</a></li>
-                                        <li><a href="tel:211-92-364-3890"><span class="fa fa-phone-alt"></span> Phone 211-92-364-3890</a></li>
-                                        <li><a href="tel:211-98-025-8555"><span class="fa fa-phone-alt"></span> Phone 211-98-025-8555</a></li>
-                                        <li><a href="mailto:info@awoeso.org"><span class="fa fa-envelope-open"></span> info@awoeso.org</a></li>
+                                        <li><a href="tel:211-92-929-8488"><span class="fa fa-phone-alt"></span> Phone
+                                                211-92-929-8488</a></li>
+                                        <li><a href="tel:211-92-364-3890"><span class="fa fa-phone-alt"></span> Phone
+                                                211-92-364-3890</a></li>
+                                        <li><a href="tel:211-98-025-8555"><span class="fa fa-phone-alt"></span> Phone
+                                                211-98-025-8555</a></li>
+                                        <li><a href="mailto:info@awoeso.org"><span class="fa fa-envelope-open"></span>
+                                                info@awoeso.org</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -108,8 +117,10 @@
                                     <div class="newsletter-form">
                                         <form>
                                             <div class="form-group clearfix">
-                                                <input type="email" name="email" value="" placeholder="Enter Your Email" required="">
-                                                <button type="submit" class="theme-btn newsletter-btn">Subscribe</button>
+                                                <input type="email" name="email" value=""
+                                                    placeholder="Enter Your Email" required="">
+                                                <button type="submit"
+                                                    class="theme-btn newsletter-btn">Subscribe</button>
                                             </div>
                                         </form>
                                     </div>
@@ -129,7 +140,8 @@
         <div class="auto-container">
             <div class="inner">
                 <!--Copyright-->
-                <div class="copyright">Copyrights (c) 2019 <a href="#">AWOESO Charity & Non-Profit Theme.</a> All rights reserved.</div>
+                <div class="copyright">Copyrights (c) {{ date('Y') }} <a href="#">(AWOESO) AIDs Women and
+                        Orphans Education Support Organization.</a> All rights reserved.</div>
             </div>
         </div>
     </div>

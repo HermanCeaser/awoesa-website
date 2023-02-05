@@ -52,7 +52,7 @@
             <div class="cause-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
                     <div class="image-box">
-                        <figure class="image"><a href=""><img src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}" alt=""></a></figure>
+                        <figure class="image"><a href=""><img src="{{ Vite::asset('resources/images/resource/cause-image-3.jpg') }}" alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
                                 <div class="bar-inner count-bar" data-percent="50%"><div class="count-text">50%</div></div>
@@ -76,7 +76,7 @@
             <div class="cause-block col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
                     <div class="image-box">
-                        <figure class="image"><a href="#"><img src="{{ Vite::asset('resources/images/resource/cause-image-3.jpg') }}" alt=""></a></figure>
+                        <figure class="image"><a href="#"><img src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}" alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
                                 <div class="bar-inner count-bar" data-percent="40%"><div class="count-text">40%</div></div>

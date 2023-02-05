@@ -5,7 +5,7 @@
 
     @include('layouts.partials.about2')
 
-    @include('layouts.partials.funfacts')
+    @include('layouts.partials.funfacts2')
 
     @include('layouts.partials.causes')
 
