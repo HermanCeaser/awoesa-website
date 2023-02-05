@@ -77,45 +77,11 @@
             </div>
 
             <!--Featured Blocks-->
-            <div class="featured-blocks">
-                <div class="row clearfix">
-                    <!--Featured Block-->
-                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                <div class="icon"><span class="flaticon-care"></span></div>
-                                <h3>Helping Mankind</h3>
-                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat
-                                    duis autpsum natus dolore magna aliqua minim ipsum.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Featured Block-->
-                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                <div class="icon"><span class="flaticon-pigeon"></span></div>
-                                <h3>Love Your World</h3>
-                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat
-                                    duis autpsum natus dolore magna aliqua minim ipsum.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Featured Block-->
-                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                <div class="icon"><span class="flaticon-harvest"></span></div>
-                                <h3>Food for Everyone</h3>
-                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat
-                                    duis autpsum natus dolore magna aliqua minim ipsum.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
+
+    @include('layouts.partials.motto')
 
     <!--Fun Facts Section-->
     <section class="fun-facts-section">
@@ -153,8 +119,8 @@
                     <!--Column-->
                     <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
                         <div class="inner-box">
-                            <div class="count-box"><span class="count-text" data-speed="3000"
-                                    data-stop="1369">0</span></div>
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1369">0</span>
+                            </div>
                             <div class="counter-title">Projects Done</div>
                         </div>
                     </div>
