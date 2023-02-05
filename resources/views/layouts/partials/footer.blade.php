@@ -91,9 +91,11 @@
                                 <div class="widget-content">
                                     <h3>Contact Us</h3>
                                     <ul class="contact-info">
-                                        <li>4291 Glenview Drive, Florence, MI 29501</li>
-                                        <li><a href="tel:812-070-3692"><span class="fa fa-phone-alt"></span> Phone 812-070-3692</a></li>
-                                        <li><a href="mailto:donations@example.org"><span class="fa fa-envelope-open"></span> donations@example.org</a></li>
+                                        <li>P.O. Box 129, Juba, South Sudan</li>
+                                        <li><a href="tel:211-92-929-8488"><span class="fa fa-phone-alt"></span> Phone 211-92-929-8488</a></li>
+                                        <li><a href="tel:211-92-364-3890"><span class="fa fa-phone-alt"></span> Phone 211-92-364-3890</a></li>
+                                        <li><a href="tel:211-98-025-8555"><span class="fa fa-phone-alt"></span> Phone 211-98-025-8555</a></li>
+                                        <li><a href="mailto:info@awoeso.org"><span class="fa fa-envelope-open"></span> info@awoeso.org</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -104,7 +106,7 @@
                                 <div class="widget-content">
                                     <h3>Subscribe Our Newsletter For Updates</h3>
                                     <div class="newsletter-form">
-                                        <form method="post" action="#">
+                                        <form>
                                             <div class="form-group clearfix">
                                                 <input type="email" name="email" value="" placeholder="Enter Your Email" required="">
                                                 <button type="submit" class="theme-btn newsletter-btn">Subscribe</button>
