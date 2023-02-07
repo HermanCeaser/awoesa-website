@@ -92,7 +92,8 @@
                     <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
                     <h2>Start Giving Today &amp; <br>Good Things Will Happen!</h2>
                 </div>
-                <div class="text">Through your generous gift the vulnerable people in South Sudan get the aid they need to survive, recover and regain control of their lives..</div>
+                <div class="text">Through your generous gift the vulnerable people in South Sudan get the aid they
+                    need to survive, recover and regain control of their lives..</div>
                 <div class="link-box"><a href="#" class="default-link">learn more</a></div>
             </div>
         </div>
@@ -124,7 +125,11 @@
                                         src="{{ Vite::asset('resources/images/resource/team-image-1.jpg') }}"
                                         alt=""></a></figure>
                             <h3><a href="#">Amule Samuel William</a></h3>
+
                             <div class="designation">CEO</div>
+                            <div class="designation"><a href="tel:+211929298488"><span class="fa fa-phone-alt"></span>
+                                    Phone
+                                    +211-92-929-8488</a></div>
                         </div>
                     </div>
                     <!--Team Block-->
@@ -135,6 +140,10 @@
                                         alt=""></a></figure>
                             <h3><a href="#">Asienzo jackline Michael.</a></h3>
                             <div class="designation">Deputy Admin</div>
+                            <div class="designation"><a href="tel:+211923643890"><span
+                                        class="fa fa-phone-alt"></span> Phone
+                                    +211-92-364-3890</a></li>
+                            </div>
                         </div>
                     </div>
                     <!--Team Block-->
@@ -143,12 +152,14 @@
                             <figure class="image-box"><a href="#"><img
                                         src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}"
                                         alt=""></a></figure>
-                            <h3><a href="#">Diana Leslie</a></h3>
-                            <div class="designation">Junior Volunteer</div>
+                            <h3><a href="#">Kibirango Liz</a></h3>
+                            <div class="designation">Consultant</div>
+                            <div class="designation"><a href="tel:+211922340927"><span class="fa fa-phone-alt"></span> Phone
+                                +211-92-234-0927</a></div>
                         </div>
                     </div>
                     <!--Team Block-->
-                    <div class="team-block">
+                    {{-- <div class="team-block">
                         <div class="inner-box">
                             <figure class="image-box"><a href="#"><img
                                         src="{{ Vite::asset('resources/images/resource/team-image-4.jpg') }}"
@@ -176,7 +187,7 @@
                             <h3><a href="#">Diana Leslie</a></h3>
                             <div class="designation">Junior Volunteer</div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
@@ -184,7 +195,8 @@
     </section>
 
     <section class="call-to-action alternate-two">
-        <div class="image-layer" style="background-image:url('{{ Vite::asset('resources/images/background/bg-pattern-1.png') }}')"></div>
+        <div class="image-layer"
+            style="background-image:url('{{ Vite::asset('resources/images/background/bg-pattern-1.png') }}')"></div>
 
         <div class="auto-container">
             <div class="row clearfix">

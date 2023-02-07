@@ -97,12 +97,12 @@
                                     <h3>Contact Us</h3>
                                     <ul class="contact-info">
                                         <li>P.O. Box 129, Juba, South Sudan</li>
-                                        <li><a href="tel:211-92-929-8488"><span class="fa fa-phone-alt"></span> Phone
-                                                211-92-929-8488</a></li>
-                                        <li><a href="tel:211-92-364-3890"><span class="fa fa-phone-alt"></span> Phone
-                                                211-92-364-3890</a></li>
-                                        <li><a href="tel:211-98-025-8555"><span class="fa fa-phone-alt"></span> Phone
-                                                211-98-025-8555</a></li>
+                                        <li><a href="tel:+211929298488"><span class="fa fa-phone-alt"></span> Phone
+                                                +211-92-929-8488</a></li>
+                                        <li><a href="tel:+211923643890"><span class="fa fa-phone-alt"></span> Phone
+                                                +211-92-364-3890</a></li>
+                                        <li><a href="tel:+211922340927"><span class="fa fa-phone-alt"></span> Phone
+                                                +211-92-234-0927</a></li>
                                         <li><a href="mailto:info@awoeso.org"><span class="fa fa-envelope-open"></span>
                                                 info@awoeso.org</a></li>
                                     </ul>
