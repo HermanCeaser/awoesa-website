@@ -24,7 +24,7 @@
 
             <div class="items-container row clearfix">
                 <!--Gallery Item-->
-                <div class="gallery-item all masonry-item shelter col-lg-8 col-md-12 col-sm-12">
+                <div class="gallery-item all masonry-item medical education col-lg-8 col-md-12 col-sm-12">
                     <div class="inner-box">
                         <figure class="image-box">
                             <img src="{{ Vite::asset('resources/images/gallery/1.jpg') }}" alt="">
@@ -34,17 +34,37 @@
                 </div>
 
                 <!--Gallery Item-->
+                <div class="gallery-item all masonry-item shelter col-lg-8 col-md-12 col-sm-12">
+                    <div class="inner-box">
+                        <figure class="image-box">
+                            <img src="{{ Vite::asset('resources/images/resource/cause-image-1.jpg') }}" alt="">
+                            <a href="{{ Vite::asset('resources/images/resource/cause-image-1.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
+                        </figure>
+                    </div>
+                </div>
+
+                <!--Gallery Item-->
                 <div class="gallery-item all masonry-item medical shelter col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="{{ Vite::asset('resources/images/gallery/2.jpg') }}" alt="">
-                            <a href="{{ Vite::asset('resources/images/gallery/2.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
+                            <img src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}" alt="">
+                            <a href="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
                         </figure>
                     </div>
                 </div>
 
                 <!--Gallery Item-->
                 <div class="gallery-item all masonry-item medical education col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <figure class="image-box">
+                            <img src="{{ Vite::asset('resources/images/resource/cause-image-3.jpg') }}" alt="">
+                            <a href="{{ Vite::asset('resources/images/resource/cause-image-3.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
+                        </figure>
+                    </div>
+                </div>
+
+                <!--Gallery Item-->
+                <div class="gallery-item all masonry-item medical education shelter col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <figure class="image-box">
                             <img src="{{ Vite::asset('resources/images/gallery/3.jpg') }}" alt="">
@@ -54,21 +74,11 @@
                 </div>
 
                 <!--Gallery Item-->
-                <div class="gallery-item all masonry-item medical education shelter col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="{{ Vite::asset('resources/images/gallery/4.jpg') }}" alt="">
-                            <a href="{{ Vite::asset('resources/images/gallery/4.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
-                        </figure>
-                    </div>
-                </div>
-
-                <!--Gallery Item-->
                 <div class="gallery-item all masonry-item education shelter col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="{{ Vite::asset('resources/images/gallery/5.jpg') }}" alt="">
-                            <a href="{{ Vite::asset('resources/images/gallery/5.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
+                            <img src="{{ Vite::asset('resources/images/resource/cause-image-5.jpg') }}" alt="">
+                            <a href="{{ Vite::asset('resources/images/resource/cause-image-5.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
                         </figure>
                     </div>
                 </div>
@@ -77,8 +87,18 @@
                 <div class="gallery-item all masonry-item medical shelter col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <figure class="image-box">
-                            <img src="{{ Vite::asset('resources/images/gallery/6.jpg') }}" alt="">
-                            <a href="{{ Vite::asset('resources/images/gallery/6.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
+                            <img src="{{ Vite::asset('resources/images/resource/cause-image-6.jpg') }}" alt="">
+                            <a href="{{ Vite::asset('resources/images/resource/cause-image-6.jpg') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
+                        </figure>
+                    </div>
+                </div>
+
+                <!--Gallery Item-->
+                <div class="gallery-item all masonry-item medical shelter col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <figure class="image-box">
+                            <img src="{{ Vite::asset('resources/images/resource/cause-image-4.webp') }}" alt="">
+                            <a href="{{ Vite::asset('resources/images/resource/cause-image-4.webp') }}" class="icon lightbox-image" data-fancybox="gallery"><span class="fa fa-search-plus"></span></a>
                         </figure>
                     </div>
                 </div>

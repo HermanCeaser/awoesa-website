@@ -43,7 +43,7 @@
                 <div class="inner-box wow fadeInUp" data-wow-delay="0ms">
                     <div class="image-box">
                         <figure class="image"><a href="{{ route('aboutus') }}"><img
-                                    src="{{ Vite::asset('resources/images/resource/cause-image-1.jpg') }}"
+                                    src="{{ Vite::asset('resources/images/resource/cause-image-6.jpg') }}"
                                     alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
@@ -127,7 +127,7 @@
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
                     <div class="image-box">
                         <figure class="image"><a href="#"><img
-                                    src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}"
+                                    src="{{ Vite::asset('resources/images/resource/cause-image-4.webp') }}"
                                     alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
@@ -155,7 +155,7 @@
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
                     <div class="image-box">
                         <figure class="image"><a href="#"><img
-                                    src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}"
+                                    src="{{ Vite::asset('resources/images/resource/cause-image-5.jpg') }}"
                                     alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
@@ -183,7 +183,7 @@
                 <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
                     <div class="image-box">
                         <figure class="image"><a href="#"><img
-                                    src="{{ Vite::asset('resources/images/resource/cause-image-2.jpg') }}"
+                                    src="{{ Vite::asset('resources/images/resource/cause-image-1.jpg') }}"
                                     alt=""></a></figure>
                         <div class="progress-box">
                             <div class="bar">
