@@ -6,7 +6,7 @@
     <title>AWOESO | Home </title>
     <meta name="description"
         content="Aids widow and Orphans Education support Organization (AWOESO) is a christian relief and development Non- Government Organization with it’s head offices in Juba, the capital city of South Sudan. AWOESO was formed in 2000, as a community based organization to respond to the overwhelming and increasing number of orphans, widows, internally displaced persons (IDPs), in the Equatorial Region (Central, Eastern and Western States) and South Sudan at large
-        Acknowledging the limited capacity of the government and the increasing demand of the people of South Sudan for Economic Development, Health care, Human Rights, Shelter, Rehabilitation, and Education to the most vulnerable people. AWOESO was therefore formed to support the vulnerable people with Education Support, Shelter, Relief Aid, Health care support , Rehabilitation and also advocate for equality, women empowerment and Justice for al">
+        Acknowledging the limited capacity of the government and the increasing demand of the people of South Sudan for Economic Development, Health care, Human Rights, Shelter, Rehabilitation, and Education to the most vulnerable people. AWOESO was therefore formed to support the vulnerable people with Education Support, Shelter, Relief Aid, Health care support , Rehabilitation and also advocate for equality, women empowerment and Justice for all">
     <meta name="keywords"
         content="AWOESO, Non Profit Organisation (NGO), Christian Reflief, Non Government Oganization, Poor, Poverty, Vulnerable, South Sudan, Orphans, Aids, Women, Education, Support, Human Rights, Healthcare, Shelter, Rehabilitation, Equality, empowerment, Justice for all">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -62,7 +62,7 @@
                             </ul>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a target="__blank" href="https://twitter.com/awoeso"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
                                 <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
                                 <li><a href="#"><span class="fab fa-instagram"></span></a></li>

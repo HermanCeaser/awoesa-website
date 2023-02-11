@@ -22,7 +22,7 @@
                                 Juba, the capital city of South Sudan. </div>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a target="__blank" href="https://twitter.com/awoeso"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
                                 <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                                 <li><a href="#"><span class="fab fa-youtube"></span></a></li>
