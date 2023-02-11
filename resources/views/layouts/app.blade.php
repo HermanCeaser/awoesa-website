@@ -131,7 +131,7 @@
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo pull-left">
-                        <a href="index.html" title=""><img
+                        <a href="{{ route('home')}}" title=""><img
                                 src="{{ Vite::asset('resources/images/sticky-logo.png') }}" alt=""
                                 title=""></a>
                     </div>
@@ -151,7 +151,7 @@
                 <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.html"><img
+                    <div class="nav-logo"><a href="{{ route('home')}}"><img
                                 src="{{ Vite::asset('resources/images/nav-logo.png') }}" alt=""
                                 title=""></a></div>
                     <div class="menu-outer">
