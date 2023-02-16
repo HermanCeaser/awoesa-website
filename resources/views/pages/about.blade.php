@@ -154,8 +154,9 @@
                                         alt=""></a></figure>
                             <h3><a href="#">Kibirango Liz</a></h3>
                             <div class="designation">Consultant</div>
-                            <div class="designation"><a href="tel:+211922340927"><span class="fa fa-phone-alt"></span> Phone
-                                +211-92-234-0927</a></div>
+                            <div class="designation"><a href="tel:+211922340927"><span
+                                        class="fa fa-phone-alt"></span> Phone
+                                    +211-92-234-0927</a></div>
                         </div>
                     </div>
                     <!--Team Block-->
@@ -205,7 +206,10 @@
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to
+                        <a data-toggle="popover" data-placement="top"
+                            data-content="Click to Download the Volunteer Application Form, fill it and send it to info@awoeso.org via email"
+                            href="{{ route('volunteer.download') }}" class="theme-btn btn-style-one"><span
+                                class="btn-title">join to
                                 Volunteer</span></a>
                     </div>
                 </div>

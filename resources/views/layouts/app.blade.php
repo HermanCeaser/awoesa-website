@@ -62,7 +62,8 @@
                             </ul>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a target="__blank" href="https://twitter.com/awoeso"><span class="fab fa-twitter"></span></a></li>
+                                <li><a target="__blank" href="https://twitter.com/awoeso"><span
+                                            class="fab fa-twitter"></span></a></li>
                                 <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
                                 <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
                                 <li><a href="#"><span class="fab fa-instagram"></span></a></li>
@@ -101,7 +102,8 @@
                                             <ul>
                                                 <li @class(['current' => request()->routeIs('aboutus')])><a href="{{ route('aboutus') }}">About
                                                         Us</a></li>
-                                                <li><a href="#">Our Volunteers</a></li>
+                                                <li><a href="{{ route('volunteer.download') }}">Join to Volunteer</a>
+                                                </li>
                                                 <li><a href="#">Faq's</a></li>
                                                 <li><a href="#">Make Donation</a></li>
                                             </ul>
@@ -131,7 +133,7 @@
                 <div class="auto-container clearfix">
                     <!--Logo-->
                     <div class="logo pull-left">
-                        <a href="{{ route('home')}}" title=""><img
+                        <a href="{{ route('home') }}" title=""><img
                                 src="{{ Vite::asset('resources/images/sticky-logo.png') }}" alt=""
                                 title=""></a>
                     </div>
@@ -151,7 +153,7 @@
                 <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="{{ route('home')}}"><img
+                    <div class="nav-logo"><a href="{{ route('home') }}"><img
                                 src="{{ Vite::asset('resources/images/nav-logo.png') }}" alt=""
                                 title=""></a></div>
                     <div class="menu-outer">

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\User\VolunteerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,5 @@ Route::get('/contact', function () {
 Route::get('/donate', function () {
     return view('pages.about');
 })->name('donate');
+
+Route::get('/volunteer/download', [VolunteerController::class, 'download'])->name('volunteer.download');
