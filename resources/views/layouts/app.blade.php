@@ -61,12 +61,11 @@
                                 </li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li><a target="__blank" href="https://www.facebook.com/profile.php?id=100090003654688"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a target="__blank" href="https://twitter.com/awoeso"><span
-                                            class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                                <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                <<li><a target="__blank" href="https://www.facebook.com/profile.php?id=100090003654688"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a target="__blank" href="https://twitter.com/awoeso"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="https://join.skype.com/invite/ASODQUn5zCW7"><span class="fab fa-skype"></span></a></li>
+                                <li><a target="__blank" href="https://www.instagram.com/awoeso3/"><span class="fab fa-instagram"></span></a></li>
+                                <li><a target="__blank" href="https://www.youtube.com/channel/UClIy7c4xlmBM2aGneukZUsw"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>

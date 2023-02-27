@@ -130,6 +130,24 @@
                             <div class="designation"><a href="tel:+211929298488"><span class="fa fa-phone-alt"></span>
                                     Phone
                                     +211-92-929-8488</a></div>
+                            <div class="text">
+                                Amule Samuel William Baba is a native of Kimba Payam in Morobu County in the Greater
+                                Equatoria region of central Equatorial state Republic of South Sudan. Having a diverse
+                                cultural background of Kakawa and Lubgara communities, it has exposed me to focus on
+                                community collaborations that led me to a number of volunteering opportunities and
+                                community leadership roles since my teenage age. I started my early pre-school life in
+                                Emmanuel kindergarten Yei county and later proceeded to high school in St.Charles
+                                Luwanga in Koboko and my college life in St .Joseph's college Ombaci in Arua Uganda.
+                                Later in at Strathmore University in Kenya. Since then in the early 2000s, I had been
+                                in senior managerial positions in the business sectors with multinational companies that
+                                proved and paved way in my excellence in management and administration of organization.
+                                Before devoting my life to serve our people this idea has being driven by self instinct
+                                and feel of the suffering of our people hence a call for establishment of AWOESO.
+                                Currently I serve as the cofounder of AIDS widows and orphans education support
+                                organization in south Sudan which is a humanitarian organization that focuses on serving
+                                the vulnerable people in our communities in the republic of South Sudan so as to
+                                alleviate poverty and improve the quality of life of our people
+                            </div>
                         </div>
                     </div>
                     <!--Team Block-->
@@ -144,6 +162,18 @@
                                         class="fa fa-phone-alt"></span> Phone
                                     +211-92-364-3890</a></li>
                             </div>
+                            <div class="text">
+                                Asienzo Jackline Micheal Bara is a born of Pageri Payam in Magwi County of Eastern
+                                Equatoria State in South Sudan.
+                                I am a cofounder of AWOESO south Sudan, a national Christian based, Non Profit making
+                                and non political humanitarian relief and development Organization. My passion was
+                                always helping and serving the needy in the communities. I have over 6 years of
+                                experience and expertise specializing in management and administration in humanitarian
+                                reliefs. I attended my primary in Redeemer Children's Primary School of Adjumani
+                                District in Uganda and later attained my high school from Gulu Central High School of
+                                Gulu in Uganda, later at Multi-tech Business School where I attained my Bachelor's
+                                Degree in Business Administration and Management.
+                            </div>
                         </div>
                     </div>
                     <!--Team Block-->
@@ -153,42 +183,28 @@
                                         src="{{ Vite::asset('resources/images/resource/team-image-3.jpg') }}"
                                         alt=""></a></figure>
                             <h3><a href="#">Kibirango Liz</a></h3>
+
                             <div class="designation">Consultant</div>
                             <div class="designation"><a href="tel:+211922340927"><span
                                         class="fa fa-phone-alt"></span> Phone
                                     +211-92-234-0927</a></div>
+                            <div class="text">
+                                Kibirango Liz is a born of central Buganda, Uganda along the banks of River Nile and
+                                showers if lake Victoria. She grew up from an extended family and has got a humble
+                                background.
+                                She acquires a diploma in law from law development center, Kampala Uganda, bachelor's
+                                degree in humanitarian studies from University of Pretoria, South Africa, politics and
+                                law from University of Dar el Salaam, Tanzania.
+                                She has got exposed to various conferences and workshops in respect of NGO governance,
+                                international relations, environmental protection policy and law, gender and law across
+                                the globe to mention but the few.
+                                She has been a brain behind so many NGOs smooth running of a day to day businesses and
+                                sits on various boards of different NGOs and CBOs all over the world.
+                                Due to her love for culture, she started up a cultural one stop corner at her home
+                                village, Johnsonburg and at Kibeho,Rwanda.
+                            </div>
                         </div>
                     </div>
-                    <!--Team Block-->
-                    {{-- <div class="team-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-4.jpg') }}"
-                                        alt=""></a></figure>
-                            <h3><a href="#">Scott William</a></h3>
-                            <div class="designation">Head of Team</div>
-                        </div>
-                    </div>
-                    <!--Team Block-->
-                    <div class="team-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-5.jpg') }}"
-                                        alt=""></a></figure>
-                            <h3><a href="#">Liam Irvines</a></h3>
-                            <div class="designation">Senior Admin</div>
-                        </div>
-                    </div>
-                    <!--Team Block-->
-                    <div class="team-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><a href="#"><img
-                                        src="{{ Vite::asset('resources/images/resource/team-image-6.jpg') }}"
-                                        alt=""></a></figure>
-                            <h3><a href="#">Diana Leslie</a></h3>
-                            <div class="designation">Junior Volunteer</div>
-                        </div>
-                    </div> --}}
 
                 </div>
             </div>
