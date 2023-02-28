@@ -185,9 +185,9 @@
                             <h3><a href="#">Kibirango Liz</a></h3>
 
                             <div class="designation">Consultant</div>
-                            <div class="designation"><a href="tel:+211922340927"><span
+                            <div class="designation"><a href="tel:+256741378125"><span
                                         class="fa fa-phone-alt"></span> Phone
-                                    +211-92-234-0927</a></div>
+                                    +256-741-378-125</a></div>
                             <div class="text">
                                 Kibirango Liz is a born of central Buganda, Uganda along the banks of River Nile and
                                 showers if lake Victoria. She grew up from an extended family and has got a humble
@@ -217,9 +217,28 @@
 
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
+                <div class="title-column col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <h2>Become a vital part of AWOESO &amp; make a real difference to lives of many!</h2>
                 </div>
+                <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12">
+                    <h3>Our Guidelines to become a volunteer</h3>
+                    <ul class="guidelines">
+                        <li>Respect confidentiality and privacy</li>
+                        <li>Be punctual and reliable</li>
+                        <li>Carry out the duties listed in your volunteer position description</li>
+                        <li>Be accountable</li>
+                        <li>Give notice if your availability changes or you are leaving the organisation</li>
+                        <li>Report any injuries or hazards that you notice in the workplace</li>
+                        <li>Adhere to the organisation's policies and procedures</li>
+                        <li>Deal with complaints in the appropriate manner</li>
+                        <li>Undertake training as requested</li>
+                        <li>Ask for support when needed</li>
+                        <li>Support other team members</li>
+                        <li>Respect the cultural norms & customs of the people</li>
+                    </ul>
+                </div>
+
+
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
                         <a data-toggle="popover" data-placement="top"

@@ -7,3 +7,12 @@
 @import url('style.css');
 @import url('responsive.css');
 
+
+ul.guidelines li:before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f061";
+    margin-right: 8px;
+    font-size: 12px;
+    color: #3f6b92;
+    font-weight: 800;
+}
